@@ -1,0 +1,427 @@
+body {
+  color: #5d4945;
+  margin: 0;
+  padding: 0;
+  font-family: Garamond, serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#name {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.topnav {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.topnav ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.topnav ul li a {
+  font-size: larger;
+  color: #5d4945;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.topnav ul li a:hover {
+  color: white;
+}
+
+.mainChimken {
+  min-height: 100vh;
+}
+
+.nothome {
+  background-color: #f1d9ba;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  padding: 0px 0px 0px 0px;
+  color: #f1d9ba;
+  background-color: #5d4945;
+  border-top: 1px solid #f1d9ba;
+}
+
+.footeraddr {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.footeraddr h2 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer address {
+  color: #f1d9ba;
+  margin-top: 10px;
+}
+
+.footerbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: #89685d;
+  border: none;
+  border-radius: 100px;
+  line-height: 0;
+  margin: 10px 0;
+  font-size: 17px;
+  padding: 0 12px;
+  cursor: pointer;
+  color: #f1d9ba;
+  font-family: Garamond, serif;
+}
+
+.footernav {
+  margin-right: 90px;
+}
+
+.footernav li {
+  list-style: none;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 25px;
+}
+
+.footer a {
+  color: #f1d9ba;
+}
+
+.footicons {
+  font-size: 30px;
+  width: 30px;
+  margin-right: 30px;
+}
+
+.footicons li {
+  display: inline;
+}
+
+.footernav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navul {
+  margin-left: 30px;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+/*home.html*/
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.homebody {
+  background-image: url("photos/ballet-3352946_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainquote {
+  font-size: 30px;
+  color: #cfa483;
+  text-align: right;
+  margin-top: 150px;
+  margin-right: 60px;
+}
+
+.mainquote > span {
+  text-shadow: 1px 1px #5d4945;
+}
+
+#mainbutton {
+  margin-top: 150px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f1d9ba;
+  font-size: 30px;
+  width: 200px;
+  height: 50px;
+  font-weight: 900;
+  border-color: #f1d9ba;
+  border-style: solid;
+  border-radius: 5px;
+  background: none;
+}
+
+#mainbutton:hover {
+  background-color: #5d4945;
+  border-color: #5d4945;
+}
+
+/*forus.html*/
+.forusp,
+.forusul {
+  margin-left: 30px;
+}
+
+#forusp1 {
+  margin-top: 100px;
+}
+
+.forusp {
+  font-size: 40px;
+}
+
+.forusul {
+  list-style-image: url("photos/dancerul.png");
+  font-size: 30px;
+}
+
+/*price.html*/
+
+.countdown-parent {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#countdown:hover {
+  color: red;
+}
+
+#countdown {
+  font-size: 30px;
+  width: 350px;
+  font-family: "Brush Script MT", cursive;
+  cursor: url("photos/hot-sale.png"), auto;
+  color: #f1d9ba;
+  font-weight: 900;
+  border-style: solid;
+  border-color: #5d4945;
+  border-radius: 7px;
+  background-color: #5d4945;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#pdisc {
+  text-align: center;
+  font-weight: 900;
+  font-size: larger;
+  color: red;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-color: #5d4945;
+}
+
+th,
+td {
+  text-align: left;
+  border-color: #5d4945;
+  padding: 8px;
+}
+
+#pricetable {
+  margin-top: 50px;
+  border-radius: 7px;
+}
+
+#pricetable th,
+#pricetable td {
+  border-style: dashed;
+  font-size: 30px;
+}
+
+table.first-column > tbody > tr > td:nth-of-type(2) {
+  font-size: larger;
+  margin-bottom: 30px;
+  background-color: #5d4945;
+  color: #f1d9ba;
+}
+
+.discount {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  color: #5d4945;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+/*schedule.html*/
+#schedt {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+#schedt th,
+#schedt td {
+  text-align: center;
+  border-style: solid;
+  font-size: 20px;
+}
+
+#schedt tbody tr:nth-child(odd) {
+  background-color: #5d4945;
+  color: #f1d9ba;
+}
+
+/*contact.html*/
+
+.contactpar {
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.contactcontainer {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+#subject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #5d4945;
+}
+
+#subject {
+  height: 200px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #f1d9ba;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f1d9ba;
+}
+
+#subject {
+  height: 200px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #5d4945;
+  color: #f1d9ba;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/*For all*/
+
+@media screen and (min-width: 600px) {
+  .footernav > * {
+    flex: 1;
+  }
+
+  .footeraddr {
+    flex: 1 0px;
+  }
+
+  .footernav {
+    flex: 2 0px;
+  }
+
+  input[type="text"],
+  #subject {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .homebody {
+    background-position: center;
+  }
+
+  #mainbutton {
+    background-color: #5d4945;
+    border-color: #5d4945;
+  }
+}
+
+@media print {
+  .intro,
+  .footer {
+    display: none;
+  }
+  #countdown {
+    display: none;
+  }
+  body {
+    margin: 0px;
+  }
+}
