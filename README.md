@@ -1,1 +1,2 @@
-# Ballet_school_website
+This is a website for ballet school.
+HTML; CSS; JS
