@@ -1,2 +1,3 @@
-This is a website for ballet school. Only frondend!
-HTML; CSS; JS
+# Ballet school website
+## Simple frondend for ballet school website
+### HTML; CSS; JS
